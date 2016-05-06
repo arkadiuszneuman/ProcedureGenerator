@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DC886396-B583-4F1A-9D71-2E6F7F2F0453}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProcedureGenerator</RootNamespace>
+    <AssemblyName>ProcedureGenerator</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DatabaseSelector">
+      <HintPath>..\Files\DatabaseSelector.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.Charts.v13.2.Core">
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.Data.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.Office.v13.2.Core">
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v13.2.Core">
+    </Reference>
+    <Reference Include="DevExpress.Printing.v13.2.Core">
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v13.2.Core">
+    </Reference>
+    <Reference Include="DevExpress.SpellChecker.v13.2.Core">
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.2.UI">
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v13.2.Extensions">
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2.Extensions">
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2.UI">
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2.Web">
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2.Wizard">
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v13.2.Win">
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v13.2.Core">
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v13.2.Win">
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v13.2.Core">
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2.Extensions">
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v13.2.Service">
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2.Service">
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2.Web">
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v13.2.Extensions">
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v13.2.Printing">
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2.Core">
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2.Extensions">
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2.iCalendarExchange">
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2.OutlookExchange">
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2.Reporting">
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2.Reporting.Extensions">
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2.VCalendarExchange">
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v13.2">
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v13.2">
+    </Reference>
+    <Reference Include="inSolutions.Controls.1.0.1.7.1">
+      <HintPath>..\Files\inSolutions.Controls.1.0.1.7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="inSolutions.Nexo.1.0.1.7.1">
+      <HintPath>..\Files\inSolutions.Nexo.1.0.1.7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="inSolutions.Utilities.1.0.1.7.1">
+      <HintPath>..\Files\inSolutions.Utilities.1.0.1.7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cl_Column.cs" />
+    <Compile Include="Cl_Extensions.cs" />
+    <Compile Include="Cl_InsideCreator.cs" />
+    <Compile Include="MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrm.Designer.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainFrm.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

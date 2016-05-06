@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcedureGenerator", "ProcedureGenerator\ProcedureGenerator.csproj", "{DC886396-B583-4F1A-9D71-2E6F7F2F0453}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{DA3EECCC-037B-4D62-96FA-11F7032DFCDB}"
+	ProjectSection(SolutionItems) = preProject
+		Files\DatabaseSelector.dll = Files\DatabaseSelector.dll
+		Files\DevExpress.BonusSkins.v12.2.dll = Files\DevExpress.BonusSkins.v12.2.dll
+		Files\DevExpress.Charts.v12.2.Core.dll = Files\DevExpress.Charts.v12.2.Core.dll
+		Files\DevExpress.CodeParser.v12.2.dll = Files\DevExpress.CodeParser.v12.2.dll
+		Files\DevExpress.Data.v12.2.dll = Files\DevExpress.Data.v12.2.dll
+		Files\DevExpress.Office.v12.2.Core.dll = Files\DevExpress.Office.v12.2.Core.dll
+		Files\DevExpress.PivotGrid.v12.2.Core.dll = Files\DevExpress.PivotGrid.v12.2.Core.dll
+		Files\DevExpress.Printing.v12.2.Core.dll = Files\DevExpress.Printing.v12.2.Core.dll
+		Files\DevExpress.RichEdit.v12.2.Core.dll = Files\DevExpress.RichEdit.v12.2.Core.dll
+		Files\DevExpress.SpellChecker.v12.2.Core.dll = Files\DevExpress.SpellChecker.v12.2.Core.dll
+		Files\DevExpress.Utils.v12.2.dll = Files\DevExpress.Utils.v12.2.dll
+		Files\DevExpress.Utils.v12.2.UI.dll = Files\DevExpress.Utils.v12.2.UI.dll
+		Files\DevExpress.Xpo.v12.2.dll = Files\DevExpress.Xpo.v12.2.dll
+		Files\DevExpress.Xpo.v12.2.Extensions.dll = Files\DevExpress.Xpo.v12.2.Extensions.dll
+		Files\DevExpress.XtraBars.v12.2.dll = Files\DevExpress.XtraBars.v12.2.dll
+		Files\DevExpress.XtraCharts.v12.2.dll = Files\DevExpress.XtraCharts.v12.2.dll
+		Files\DevExpress.XtraCharts.v12.2.Extensions.dll = Files\DevExpress.XtraCharts.v12.2.Extensions.dll
+		Files\DevExpress.XtraCharts.v12.2.UI.dll = Files\DevExpress.XtraCharts.v12.2.UI.dll
+		Files\DevExpress.XtraCharts.v12.2.Web.dll = Files\DevExpress.XtraCharts.v12.2.Web.dll
+		Files\DevExpress.XtraCharts.v12.2.Wizard.dll = Files\DevExpress.XtraCharts.v12.2.Wizard.dll
+		Files\DevExpress.XtraDashboard.v12.2.dll = Files\DevExpress.XtraDashboard.v12.2.dll
+		Files\DevExpress.XtraEditors.v12.2.dll = Files\DevExpress.XtraEditors.v12.2.dll
+		Files\DevExpress.XtraGauges.v12.2.Core.dll = Files\DevExpress.XtraGauges.v12.2.Core.dll
+		Files\DevExpress.XtraGauges.v12.2.Win.dll = Files\DevExpress.XtraGauges.v12.2.Win.dll
+		Files\DevExpress.XtraGrid.v12.2.dll = Files\DevExpress.XtraGrid.v12.2.dll
+		Files\DevExpress.XtraLayout.v12.2.dll = Files\DevExpress.XtraLayout.v12.2.dll
+		Files\DevExpress.XtraNavBar.v12.2.dll = Files\DevExpress.XtraNavBar.v12.2.dll
+		Files\DevExpress.XtraPivotGrid.v12.2.dll = Files\DevExpress.XtraPivotGrid.v12.2.dll
+		Files\DevExpress.XtraPrinting.v12.2.dll = Files\DevExpress.XtraPrinting.v12.2.dll
+		Files\DevExpress.XtraReports.v12.2.dll = Files\DevExpress.XtraReports.v12.2.dll
+		Files\DevExpress.XtraReports.v12.2.Extensions.dll = Files\DevExpress.XtraReports.v12.2.Extensions.dll
+		Files\DevExpress.XtraReports.v12.2.Service.dll = Files\DevExpress.XtraReports.v12.2.Service.dll
+		Files\DevExpress.XtraReports.v12.2.Web.dll = Files\DevExpress.XtraReports.v12.2.Web.dll
+		Files\DevExpress.XtraRichEdit.v12.2.dll = Files\DevExpress.XtraRichEdit.v12.2.dll
+		Files\DevExpress.XtraRichEdit.v12.2.Extensions.dll = Files\DevExpress.XtraRichEdit.v12.2.Extensions.dll
+		Files\DevExpress.XtraRichEdit.v12.2.Printing.dll = Files\DevExpress.XtraRichEdit.v12.2.Printing.dll
+		Files\DevExpress.XtraScheduler.v12.2.Core.dll = Files\DevExpress.XtraScheduler.v12.2.Core.dll
+		Files\DevExpress.XtraScheduler.v12.2.dll = Files\DevExpress.XtraScheduler.v12.2.dll
+		Files\DevExpress.XtraScheduler.v12.2.Extensions.dll = Files\DevExpress.XtraScheduler.v12.2.Extensions.dll
+		Files\DevExpress.XtraScheduler.v12.2.iCalendarExchange.dll = Files\DevExpress.XtraScheduler.v12.2.iCalendarExchange.dll
+		Files\DevExpress.XtraScheduler.v12.2.OutlookExchange.dll = Files\DevExpress.XtraScheduler.v12.2.OutlookExchange.dll
+		Files\DevExpress.XtraScheduler.v12.2.Reporting.dll = Files\DevExpress.XtraScheduler.v12.2.Reporting.dll
+		Files\DevExpress.XtraScheduler.v12.2.Reporting.Extensions.dll = Files\DevExpress.XtraScheduler.v12.2.Reporting.Extensions.dll
+		Files\DevExpress.XtraScheduler.v12.2.VCalendarExchange.dll = Files\DevExpress.XtraScheduler.v12.2.VCalendarExchange.dll
+		Files\DevExpress.XtraSpellChecker.v12.2.dll = Files\DevExpress.XtraSpellChecker.v12.2.dll
+		Files\DevExpress.XtraTreeList.v12.2.dll = Files\DevExpress.XtraTreeList.v12.2.dll
+		Files\DevExpress.XtraVerticalGrid.v12.2.dll = Files\DevExpress.XtraVerticalGrid.v12.2.dll
+		Files\DevExpress.XtraWizard.v12.2.dll = Files\DevExpress.XtraWizard.v12.2.dll
+		Files\inSolutions.Controls.1.0.1.7.1.dll = Files\inSolutions.Controls.1.0.1.7.1.dll
+		Files\inSolutions.Nexo.1.0.1.7.1.dll = Files\inSolutions.Nexo.1.0.1.7.1.dll
+		Files\inSolutions.Utilities.1.0.1.7.1.dll = Files\inSolutions.Utilities.1.0.1.7.1.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC886396-B583-4F1A-9D71-2E6F7F2F0453}.Debug|x86.ActiveCfg = Debug|x86
+		{DC886396-B583-4F1A-9D71-2E6F7F2F0453}.Debug|x86.Build.0 = Debug|x86
+		{DC886396-B583-4F1A-9D71-2E6F7F2F0453}.Release|x86.ActiveCfg = Release|x86
+		{DC886396-B583-4F1A-9D71-2E6F7F2F0453}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
